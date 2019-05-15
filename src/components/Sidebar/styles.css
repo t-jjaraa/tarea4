@@ -1,0 +1,40 @@
+.Sidebar {
+	
+}
+
+.Sidebar > div {
+	margin-bottom: 6px;
+}
+
+.Filters {
+	font-weight: bold;
+    padding-left: 16px;
+    padding-top: 10px;
+    background: #FFFFFF;
+}
+
+.Search, .Stars {
+	background: #FFFFFF;
+	padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-right: 10px;
+}
+
+.Search > div > button{	
+    margin-left: 16px;
+}
+
+.Search > label{	
+    margin-left: 10px;
+}
+
+.All-stars {
+    font-size: 13px;
+    padding-left: 6px;	
+    color: #434a52;
+}
+
+.Stars > div > svg {
+	margin-left: 4px;
+}	

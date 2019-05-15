@@ -1,0 +1,17 @@
+.Content {
+    /*display: flex;
+    margin: 0 auto;
+    min-height: 100vh;*/
+    margin-top: 26px;
+    padding-left: 24px;
+    padding-right: 24px;    
+}
+
+.Filter {
+    padding-left: 16px;
+    padding-top: 10px;
+    background: #FFFFFF;
+	margin-top: -24px;
+	margin-bottom: 19px;
+	text-align: center;    
+}

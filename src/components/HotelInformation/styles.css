@@ -1,0 +1,115 @@
+.Hotel-information {		
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px 0 #e0e6ee, 0 0 0 1px #e0e6ee;
+    padding: 8px;
+    margin-bottom: 18px;
+}
+
+.Amenities {
+	width: 18px;
+}
+
+div > .Amenities {
+	margin-right: 14px;
+}
+
+.Star > svg {
+	margin-right: 3px;
+}
+
+.Hotel-image {
+	width: 311px;
+	height: 200px;
+}
+
+.Hotel-title {
+	color: #157ab0;
+	font-weight: bold;
+}
+
+.Price-description {
+	border-left: 1px dashed black;
+    text-align: center;	
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;    
+}
+
+.Price-description > div > h6{
+	color: #15427d;
+	font-size: 14px;
+}
+
+.Price {
+	color: #de6400;
+	font-size: 22px;
+	display: flex;
+}
+
+.Price > span{
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.Price > label{
+    margin-top: 11px;
+    padding-right: 4px;
+}
+
+.Price-description > div > .Btn-hotel {
+	font-size: 18px;
+	width: 165px;
+}
+
+.Btn-hotel {
+	background-color: #15427d;
+	font-weight: bold;
+}
+
+.Btn-hotel:hover {
+	background-color: #FFFFFF;
+	color: #15427d;
+}
+
+
+@media (max-width: 575.98px) { 
+	.Hotel-information > div {
+	    padding: 2px;
+	    padding-top: 4px;
+	    text-align: center;
+	    
+	}
+
+	.Hotel-information > div:nth-child(2) {
+	    text-align: left;
+	    margin-left: 8px;
+	    margin-top: 4px;
+	    
+	}
+	
+	.Hotel-information > div > div:nth-child(3), .Star {
+    	margin-top: 8px;
+	    
+	}
+
+	.Price-description {
+	    margin-top: 26px;
+	    margin-bottom: 30px;
+	    border-top: 1px dashed black;
+	    border-left: 0px;
+	}
+	
+	.Price-description > div > h6{
+		margin-top: 16px;
+	}
+
+	.Price {
+		display: block;
+	}
+	
+	.Price-description > div:nth-child(3) > button{
+		width: 100%;
+	}
+	
+
+}
